@@ -1,7 +1,9 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">模板语法</router-link> |
+    <router-link to="/method">方法节流防抖</router-link>|
+    <router-link to="/computed">计算属性和侦听器</router-link>
+
   </div>
   <router-view/>
 </template>
