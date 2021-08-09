@@ -21,7 +21,7 @@
     
     <h3>组件</h3>
     <HelloWorld msg="Welcome"/>
-    <todo-item></todo-item>
+    <todo-item class="to" :class="{ active: isActive }"></todo-item>
     <!-- <TodoItem></TodoItem> -->
     <!-- <TodoItem/> -->
   </div>
@@ -47,6 +47,8 @@ export default {
       url:"111",
       attributeName:"href",
       eventName:"click",
+      isActive:true,
+      
     }
   },
   created(){

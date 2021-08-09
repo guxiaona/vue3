@@ -18,7 +18,37 @@ const routes = [{
         name: 'Computed',
         component: () =>
             import ('../views/Computed.vue')
-    }
+    },
+    {
+        path: '/if',
+        name: 'If',
+        component: () =>
+            import ('../views/If.vue')
+    },
+    {
+        path: '/for',
+        name: 'For',
+        component: () =>
+            import ('../views/For.vue')
+    },
+    {
+        path: '/todo',
+        name: 'Todo',
+        component: () =>
+            import ('../views/Todo.vue')
+    },
+    {
+        path: '/eventpro',
+        name: 'EventPro',
+        component: () =>
+            import ('../views/EventPro.vue')
+    },
+    {
+        path: '/vmodel',
+        name: 'VModel',
+        component: () =>
+            import ('../views/VModel.vue')
+    },
 ]
 
 const router = createRouter({
