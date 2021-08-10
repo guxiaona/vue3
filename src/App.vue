@@ -8,6 +8,7 @@
     <router-link to="/todo">todolist-demo</router-link> |
     <router-link to="/eventpro">事件处理</router-link> |
     <router-link to="/vmodel">表单输入绑定</router-link> |
+    <router-link to="/component">组件</router-link> |
 
   </div>
   <router-view/>

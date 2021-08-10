@@ -49,6 +49,12 @@ const routes = [{
         component: () =>
             import ('../views/VModel.vue')
     },
+    {
+        path: '/component',
+        name: 'Component',
+        component: () =>
+            import ('../views/Component.vue')
+    },
 ]
 
 const router = createRouter({
